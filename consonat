@@ -1,0 +1,15 @@
+a=input()
+if(a=='A' or a=='a'):
+  print('it is a vowel')
+elif(a=='E' or a=='e'):
+  print('it is a vowel')
+elif(a=='I' or a=='i'):
+  print('it is a vowel')
+elif(a=='O' or a=='o'):
+  print('it is a vowel')
+elif(a=='U' or a=='u'):
+  print('it is a vowel')
+elif(a>='a' and a<='z') or (a>='A' and a<='Z'):
+  print('it is a consonat')
+else:
+  print('invalid')
