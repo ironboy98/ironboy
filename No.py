@@ -1,5 +1,5 @@
-a = str(input())
-if (a >= "a" and a <= "z"):
+p = str(input())
+if (p >= "a" and p <= "z"):
     print("Alphabet")
 else:
     print("No")
