@@ -1,5 +1,5 @@
 hb=int(input())
-ds=0
+k1=0
 lst=input().split()
 lst=list(map(int,lst))
 new=[]
@@ -7,8 +7,8 @@ for i in range(0,hb):
     if((lst.count(lst[i]))>=2):
       if lst[i] not in new:
         new.append(lst[i])
-        ds=1
-if(ds==0):
+        k1=1
+if(k1==0):
   print("unique")
 else:
   for i in range(0,hb):
